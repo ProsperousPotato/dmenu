@@ -1,2 +1,2 @@
 #!/bin/sh
-dmenu_path | grep -f /home/arch/dmenu/include_dmenu | grep -v -F "steamdeps" | grep /home/arch/Games/Slay.the.Spire.v2.3.4/Slay.the.Spire.v2.3.4/  | dmenu "$@" | ${SHELL:-"/bin/sh"} &
+dmenu_path | grep -F -f ~/dmenu/include_dmenu | grep -v -F -f ~/dmenu/exclude_dmenu | dmenu "$@" | ${SHELL:-"/bin/sh"} &
