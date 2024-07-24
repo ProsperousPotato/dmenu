@@ -1,2 +1,2 @@
 #!/bin/sh
-dmenu_path | grep -F -f ~/dmenu/include_dmenu | grep -v -F -f ~/dmenu/exclude_dmenu | dmenu "$@" | ${SHELL:-"/bin/sh"} &
+dmenu_path | grep -Ff ~/dmenu/include_dmenu | grep -v -e dolphin-emu-nogui -e dolphin-tool | dmenu "$@" | ${SHELL:-"/bin/sh"} &
