@@ -1,3 +1,5 @@
+My fork of dmenu that uses an include_dmenu file to specify the programs to be shown.
+
 dmenu - dynamic menu
 ====================
 dmenu is an efficient dynamic menu for X.
