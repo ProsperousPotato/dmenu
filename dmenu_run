@@ -1,2 +1,2 @@
 #!/bin/sh
-dmenu_path | grep -v -F "^." ~/dmenu/include_dmenu |  dmenu "$@" | ${SHELL:-"/bin/sh"} &
+dmenu_path | grep -v -F "^." ~/.local/src/dmenu/include_dmenu |  dmenu "$@" | ${SHELL:-"/bin/sh"} &
