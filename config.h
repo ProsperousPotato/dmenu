@@ -4,13 +4,13 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
- "BigBlueTerm437NerdFontMono-Regular:pixelsize=12:autohint=true, fontawesome:size=16" 
+  "Terminess Nerd Font Mono:pixelsize=14"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#54487A", "#000000" },
-	[SchemeSel] = { "#bbbbbb", "#54487A" },
+	[SchemeNorm] = { "#bbbbbb", "#000000" },
+	[SchemeSel] = { "#000000", "#bbbbbb" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
